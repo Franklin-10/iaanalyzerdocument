@@ -8,7 +8,6 @@ Um aplicativo web construído em **React** que permite enviar PDFs ou imagens pa
 
 - **React** (v18) com **Vite**  
   - **JSX** + **Hooks** (`useState`, `useEffect`) para gerenciar estado de upload, loading e resultado  
-  - **React Router** (opcional) para futuras rotas e extensibilidade  
 - **Azure Document Intelligence** (Modelo **prebuilt-layout**)  
   - Chamada HTTP REST via `fetch` encapsulada em `src/Api.jsx`  
   - Tratamento de polling para operações assíncronas  
