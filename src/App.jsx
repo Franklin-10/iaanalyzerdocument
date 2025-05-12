@@ -82,7 +82,7 @@ export default function App() {
     <>
       <section className="container">
         <div className="upload">
-          <h1 className="text-2xl font-bold mb-4">Analisar Documento</h1>
+          <h1>Analisar Documento</h1>
           <div>
             <label htmlFor="file-upload" className="ico">
               <i className="fa fa-cloud-upload"></i>
@@ -103,16 +103,12 @@ export default function App() {
               ></div>
             )}
           </div>
-          <button
-            onClick={handleAnalyze}
-            disabled={!file || loading}
-            className="mt-2 px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50"
-          >
+          <button onClick={handleAnalyze} disabled={!file || loading}>
             {loading ? 'Analyzing...' : 'Análise o Documento'}
           </button>
         </div>
 
-        {error && <div className="mt-4 text-red-600">Error: {error}</div>}
+        {error && <div>Error: {error}</div>}
 
         {result && (
           <div className="resultado">
