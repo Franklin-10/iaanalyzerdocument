@@ -13,7 +13,7 @@ Um aplicativo web construído em **React** que permite enviar PDFs ou imagens pa
   - Tratamento de polling para operações assíncronas  
 - **CSS** (App.css) para estilo responsivo e limpo  
 - **Node.js** & **npm** para gerenciamento de dependências  
-- **Netlify** para deploy contínuo  
+  
 
 ---
 
